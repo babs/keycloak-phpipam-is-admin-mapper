@@ -1,0 +1,12 @@
+{
+    "authenticators": [],
+    "policies": [],
+    "mappers": [],
+    "saml-mappers": [
+        {
+            "name": "Bool is_admin in role",
+            "fileName": "saml-map-phpipam-is-admin.js",
+            "description": "Returns 0 or 1 if is_admin is in user roles"
+        }
+    ]
+}
